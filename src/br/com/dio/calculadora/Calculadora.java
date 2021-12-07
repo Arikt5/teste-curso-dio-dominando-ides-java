@@ -18,7 +18,7 @@ public class Calculadora {
 		
 		int subtracao = subtracao(a,b);
 		
-		int divisao = divisao(a,b);
+		float divisao = divisao(a,b);
 		
 		int multiplicacao = multiplicacao(a,b);
 		
@@ -38,7 +38,7 @@ public class Calculadora {
 		return a - b;
 	}
 	
-	public static int divisao(int a, int b) {
+	public static float divisao(int a, int b) {
 		return a / b;
 	}
 	
